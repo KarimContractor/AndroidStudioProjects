@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update">
+
+    <EditText
+        android:id="@+id/edtupdid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="ID to be updateed"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtupduser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:ems="10"
+        android:hint="New Username"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/edtupdpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:hint="new Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnupdupdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="279dp"
+        android:text="Update" />
+</RelativeLayout>
