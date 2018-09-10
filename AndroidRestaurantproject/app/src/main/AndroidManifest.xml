@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.contr.firebasefirst">
+    package="com.example.contr.androidrestaurantproject">
 
     <application
         android:allowBackup="true"
@@ -16,10 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Adduser" />
-        <activity android:name=".Login" />
-        <activity android:name=".Listfire" />
-        <activity android:name=".listuser"></activity>
+        <activity android:name=".tab" />
+        <activity android:name=".order" />
+        <activity android:name=".tab1" />
+        <activity android:name=".verify"></activity>
     </application>
 
 </manifest>
